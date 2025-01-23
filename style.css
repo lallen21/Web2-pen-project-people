@@ -1,9 +1,17 @@
 /* Diagnostic Styling */
-*{
-  outline: 1px dotted grey;
-}
-
 /* temp background color */
 body{
     background: honeydew;
+  }
+
+  #confetti{
+    background: lightgoldenrodyellow;
+    padding: 1em; 
+    border-radius: .75em;
+  }
+  
+  body{
+    display: grid; 
+    place-items: center;
+    height: 100vh; 
   }
